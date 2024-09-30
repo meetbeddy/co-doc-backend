@@ -1,4 +1,4 @@
-import { DocumentSchema } from './collections/document.schema';
+import { Document, DocumentSchema } from './collections/document.schema';
 import { User, UserSchema } from './collections/user.schema';
 
 export const CollectionRegistry = [
