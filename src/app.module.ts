@@ -11,7 +11,7 @@ import { VersionControlService } from './modules/version-control/version-control
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb://localhost:27017/co-doc'),
+    MongooseModule.forRoot('mongodb://127.0.0.1:27017/co-doc'),
     MongooseModule.forFeature(CollectionRegistry),
     AuthModule,
     DocumentModule,
